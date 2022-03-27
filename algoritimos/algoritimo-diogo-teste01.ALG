@@ -1,7 +1,7 @@
 Algoritmo "Vamos calcular o seu IMC"
 // 
-//  
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+//
+//
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 26/3/2022
 Var
@@ -17,6 +17,6 @@ leia (peso)
 
 x <- ( alt / peso)
 
-escreval ("Seu IMC é: ", (x))
+escreval ("Seu IMC e: ", (x))
 
 Fimalgoritmo
