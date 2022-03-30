@@ -1,25 +1,25 @@
-Algoritmo "Numero Par ou ímpar"
+Algoritmo "Numero Par ou impar"
 // 
-//  
+//
 Var
-// Seção de declação de variável
+// Secao de Declaraçes das variaveis
 
 num : real
 
 
 Inicio
-   // Seção de Comandos, procedimento, funçes, operadores, etc...
+   // Secao de Comandos, procedimento, funces, operadores, etc...
    num <- 0
 
    // leitura de dados
    escreval ("Digite o numero: ")
    leia  (num)
 
-   //processamento de dados.
-   se( (num % 2) = 0 ) entao
-      escreval ("Você digitou um numero par !")
+   //processamento de dados e saida.
+   se( (num % 2) = 0 ) enta-o
+      escreval ("Vocc digitou um numero par !")
    senao
-      escreval ("Você ditigou um numero inpar !")
+      escreval ("Vocc ditigou um numero impar !")
    fimse
       
 Fimalgoritmo
