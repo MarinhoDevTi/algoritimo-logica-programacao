@@ -9,8 +9,10 @@ Var
 v1, v2, v3 : inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+    //Inicio do Algoritmo
     escreval ("-=-=-=-=-=-=-=-- Exercício 03 -=-=-=-=-=-=-=-=-")
+
+    //Inicio da leitura dos dados ...
     escreval ("Vamos digitar os três numeros para o calculo")
     escreval ("----------------------------------------------")
     escreval ("Digite o primeiro valor: ")
@@ -19,5 +21,11 @@ Inicio
     escreval ("Digite o segundo valor: ")
     leia (v2)
     escreval ("----------------------------------------------")
+    escreval ("Digite o terceiro valor: ")
+    leia (v3)
+    escreval ("----------------------------------------------")
+
+    //processamento dos dados
+    se 
 
 Fimalgoritmo
