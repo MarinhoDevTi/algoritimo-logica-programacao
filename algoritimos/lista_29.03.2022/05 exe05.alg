@@ -8,6 +8,7 @@ Var
 // Seção de Declarações das variáveis 
 op : inteiro
 val1, val2 : real
+result : real
 
 Inicio
     // Seção de Comandos, procedimento, funções, operadores, etc... 
@@ -29,5 +30,8 @@ Inicio
     escreval ("Digite o Segundo valor: ")
     leia (val2)
     escreval ("------------------------------------------------")
+
+    //desvio condicional 
+    
 
 Fimalgoritmo
