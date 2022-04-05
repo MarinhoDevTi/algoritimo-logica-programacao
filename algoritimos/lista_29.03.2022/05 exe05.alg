@@ -12,8 +12,23 @@ val1, val2 : real
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
 
-escreval ("=-=-=-=-=- Calculadora Dinamica =-=-=-=-=-==")
-escreval (" Digiti)
+escreval ("=-=-=-=-=-# Calculadora Dinamica #=-=-=-=-=-==")
+escreval ("01 - Adicao")
+escreval ("02 - subtracao")
+escreval ("03 - multiplicacao")
+escreval ("04 - divisao")
+escreval ("------------------------------------------------")
+escreva ("opcao: ")
+leia (op)
+escreval ("------------------------------------------------")
+escreval ("Digite o Primeiro valor: ")
+leia (val1)
+escreval ("------------------------------------------------")
+escreval ("Digite o Segundo valor: ")
+leia (val2)
+escreval ("------------------------------------------------")
+
+
 
 
 Fimalgoritmo
