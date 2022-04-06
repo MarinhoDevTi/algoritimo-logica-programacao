@@ -1,17 +1,17 @@
-Algoritmo "Exercício 05"
-// Disciplina   : Algorítimo e Lógica de Programação
-// Professor   : Getúlio de Morais Pereira 
+Algoritmo "Exercccio 05"
+// Disciplina   : Algoritimo e Logica de Programacao
+// Professor   : Getulio de Morais Pereira 
 // Descrição   : Calculadora 
 // Autor(a)    : Diogo Marinho da Silva
 // Data atual  : 05/04/2022
 Var
-// Seção de Declarações das variáveis 
+// Secao de Declaracao das variaveis 
 op : inteiro
 val1, val2 : real
 result : real
 
 Inicio
-    // Seção de Comandos, procedimento, funções, operadores, etc... 
+    // Secao de Comandos, procedimento, funcoes, operadores, etc... 
     //apresentacao das opcoes ...
     escreval ("=-=-=-=-=-# Calculadora Dinamica #=-=-=-=-=-==")
     escreval ("01 - Adicao")
@@ -23,15 +23,35 @@ Inicio
     //leitura de dados do usuario
     escreva ("opcao: ")
     leia (op)
-    escreval ("------------------------------------------------")
-    escreval ("Digite o Primeiro valor: ")
-    leia (val1)
-    escreval ("------------------------------------------------")
-    escreval ("Digite o Segundo valor: ")
-    leia (val2)
-    escreval ("------------------------------------------------")
 
-    //desvio condicional 
+    se (op < 1) ou (op > 4) entao
+
+        escreval("Erro de opcao invalida! ")
+        
+    senao
+         escreva ("Valor 01: ")
+         leia (val1)
+         escreva ("valor 02: ")
+         leia (val2)
+         se (op = 4) e (y = 0) entao
+            escreval ("Erro de divisao por zero!")
+         senao
+            se (op = 4) entao
+                result <- val1 / val2
+            senao
+                se (op = 1) entao
+                    result <- val1 + val2
+                senao
+                    se (op = 2) entao
+                        result <- val1 - val2
+                    senao
+                        result <- val1 * val2
+                    fimse
+                fimse
+            fimse
+        escreval("Resultado = ", result)
+    fimse
+fimse 
     
 
 Fimalgoritmo
