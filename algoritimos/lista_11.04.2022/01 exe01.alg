@@ -44,9 +44,6 @@ Algoritmo "Salario e bonificacao"
             escreva ("O funcionario vai receber:  ", salar_total)
             escreva ("reais")
             escreval ("-------------------------------------------------------")
-
-        senao
-            escreval ("Salário é: ", salar_in)
         fimse
     fimse
 
