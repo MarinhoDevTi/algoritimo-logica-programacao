@@ -27,37 +27,39 @@ Algoritmo "Salario e bonificacao"
         fimse
     fimse
 
-    escolha (salar_in)
-
-        caso <= 500 
+       se  <= 500 entao
             salar_fim <- salar_in + ( salar_in * ( 5 / 100))
             
             salar_total <- salar_fim + aux_esc
 
-            escreva ("O funcionario vai receber: a", salar_total )
-            escreva ("  reais")
-            escreval ("-------------------------------------------------------")
-
-        caso > 500  e  ( <= 1.200 )
-            salar_fim <- salar_in + (salar_in * ( 12 / 100))
-
-            salar_total <- salar_fim + aux_esc
-        
-            escreva ("O funcionario vai receber:  b" , salar_total)
+            escreva ("O funcionario vai receber: ", salar_total )
             escreval ("  reais")
             escreval ("-------------------------------------------------------")
-    
-        caso > 1.200 
-            salar_fim <- salar_in + 0
+        senao
 
-            salar_total <- salar_fim + aux_esc
+            se ( > 500 )  e  ( <= 1.200 ) entao
+                salar_fim <- salar_in + (salar_in * ( 12 / 100))
 
-            escreva ("O funcionario vai receber:  c" , salar_total)
-            escreval ("  reais")
-            escreval ("-------------------------------------------------------")
+                salar_total <- salar_fim + aux_esc
+            
+                escreva ("O funcionario vai receber:  b" , salar_total)
+                escreval ("  reais")
+                escreval ("-------------------------------------------------------")
+            senao
+                se > 1.200 entao
+                salar_fim <- salar_in + 0
+
+                salar_total <- salar_fim + aux_esc
+
+                escreva ("O funcionario vai receber:  c" , salar_total)
+                escreval ("  reais")
+                escreval ("-------------------------------------------------------")
+                fimse
+            fimse
+        fimse 
         
 
-    fimescolha        
+            
     
 
     Fimalgoritmo
