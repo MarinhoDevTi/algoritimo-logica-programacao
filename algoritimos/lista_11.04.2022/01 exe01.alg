@@ -27,8 +27,8 @@ Algoritmo "Salario e bonificacao"
         fimse
     fimse
 
-       se  <= 500 entao
-            salar_fim <- salar_in + ( salar_in * ( 5 / 100))
+       se salar_in  <= 500 entao
+            salar_fim <- salar_in + ( salar_in * 0.05)
             
             salar_total <- salar_fim + aux_esc
 
@@ -37,8 +37,8 @@ Algoritmo "Salario e bonificacao"
             escreval ("-------------------------------------------------------")
         senao
 
-            se ( > 500 )  e  ( <= 1.200 ) entao
-                salar_fim <- salar_in + (salar_in * ( 12 / 100))
+            se salar_in  > 500   e   <= 1.200  entao
+                salar_fim <- salar_in + (salar_in * 0.12)
 
                 salar_total <- salar_fim + aux_esc
             
@@ -46,7 +46,7 @@ Algoritmo "Salario e bonificacao"
                 escreval ("  reais")
                 escreval ("-------------------------------------------------------")
             senao
-                se > 1.200 entao
+                se salar_in > 1.200 entao
                 salar_fim <- salar_in + 0
 
                 salar_total <- salar_fim + aux_esc
