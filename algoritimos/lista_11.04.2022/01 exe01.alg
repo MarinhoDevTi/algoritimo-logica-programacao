@@ -37,7 +37,7 @@ Algoritmo "Salario e bonificacao"
             escreval ("-------------------------------------------------------")
         senao
 
-            se salar_in  > 500   e   <= 1.200  entao
+            se  (salar_in  > 500) e (<= 1.200)   entao
                 salar_fim <- salar_in + (salar_in * 0.12)
 
                 salar_total <- salar_fim + aux_esc
