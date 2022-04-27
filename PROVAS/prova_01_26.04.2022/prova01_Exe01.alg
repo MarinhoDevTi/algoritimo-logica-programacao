@@ -5,7 +5,7 @@ Algoritmo "prova01_Exe01"
 // Data atual  : 26/04/2022
 Var
 // variaveis 
-raio, volume, potencia : real 
+raio, volume : real 
 
 
 
@@ -21,9 +21,8 @@ Inicio
 
     //procecamento
     volume <- (3/4) * pi * raio * ( raio * raio)
-    potencia <- raio * ( raio * raio)
     escreval ("-------------------------------------------------------")
-    
+
     //saida do resultado 
     escreval ("o Volume de uma esfera e: ", volume)    
     escreval ("-------------------------------------------------------")
