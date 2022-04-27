@@ -6,7 +6,7 @@ Algoritmo "prova01_Exe04"
 Var
 // variaveis 
 a, b, c, d, ee, media : real
-p1, p2, p3, p4 : real
+p1, p2, p3, p4, p5, mediap : real
 
 
 Inicio
@@ -60,6 +60,7 @@ senao
                 se (ee > a) e (ee > b) e (ee > c) e (ee > d) entao 
                     escreva("O Valor ", ee)
                     escreval(" [E] e o maior Valor !")
+                    escreval ("------------------------------------------")
                 fimse
             fimse
         fimse
@@ -96,19 +97,28 @@ escreval ("------------------------------------------")
 media <-  ((a + b + c + d + ee) / 5)
 //media <- media / 5
 escreval ("A media aritimetica e :", media)
+escreval ("------------------------------------------")
 
 //Media Ponderada
 p1 <- (a / ( a + b + c + d + ee) )
-escreval ("Média ponderada de 1: ", p1)
+//escreval ("Média ponderada p1: ", p1)
 
 p2 <- (b / ( a + b + c + d + ee) )
-escreval ("Média ponderada de 1: ", p1)
+//escreval ("Média ponderada p2: ", p2)
 
 p3 <- (c / ( a + b + c + d + ee) )
-escreval ("Média ponderada de 1: ", p1)
+//escreval ("Média ponderada p3: ", p3)
 
-p4 <- (a / ( a + b + c + d + ee) )
-escreval ("Média ponderada de 1: ", p1)
+p4 <- (d / ( a + b + c + d + ee) )
+//escreval ("Média ponderada p4: ", p4)
+
+p5 <- (ee / ( a + b + c + d + ee) )
+//escreval ("Média ponderada p5 : ", p5)
+
+
+mediap <- ((a * p1) + (b * p2) + (c * p3) + (d * p4) + (ee * p5) / )
+escreval ("O Valor da media ponderada e: ", mediap)
+escreval ("------------------------------------------")
 
 
 
