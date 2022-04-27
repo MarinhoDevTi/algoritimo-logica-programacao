@@ -1,1 +1,116 @@
-<mxfile host="app.diagrams.net" modified="2022-04-27T21:36:41.546Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="ObXI694r8jLt82T4mxOI" version="17.4.6" type="github"><diagram id="C1GwBR_1Mfds9AIb3B47" name="Page-1">5Vhdb5swFP0te0BKHzqZrxAeE9KtnbZuUh6mPU0Gu2AJMHNIk+bXz45NSLBLNq2hjfbS655jrsk9Phew5UbF5iODVfaFIpxbDkAby51bjmNPvIAHgTwpJAwciaSMIIW1wIJssQKBQlcE4eXRxJrSvCbVMZjQssRJfYRBxuj6eNoDzY9XrWCKNWCRwFxHvxNUZxKdOEGL32KSZs3K9jiUTAGbyeqXLDOI6PoAcm8sN2KU1nJUbCKci+o1dZHXfXiG3d8Yw2X9JxfMN9vxfYl/0uk2vv28+bGNVp+uVZZHmK/UD767v4vuvqpbrp+aOjC6KhEWqWzLna0zUuNFBRPBrrn0HMvqIle0SopZjTfP3q29rwHfPZgWuGZPfIq6wAG+vERtnOu2sutWB7spbnagwVhhUEmf7pO31eEDVaC/KJajFQtaDk8FYhkSGZAMGMtYYET4PGC5U/6XYcjXGef8Xmcx46NUjCpbzq0cFV0VPRX9g1xVJ1lHKb7PKjHktYZ5jnOaMliINTAjvA6YdblvLXFK2AeywY1JX0ho2wMdoUEANKEd3yC0dy6hXU1ovEwYfhTVBiMu2q+VcO1sTlJeLo7RpZxOGRYjJLCplGwmQyTDXIYbqV+b6arHcGAQw9mupgMw6BAMaThP0yHHBI7gle4gQQhxYsHBQtSnjJfVrjbPzU168qAeDmMDaUL+RVKYk7Tk44Trt7OmUJfwB9NUETWtXkj5sNNqQ1sXfm/TQ+HDcwnva8KPoPSLlFbVFwi1gTCbmU76adRPS5k7e6kraUaLeLUcyKEdnYKJqVH6uk722TplcKJTAvWEbDud5c+mlj8XWORa01B0z93rEqGsaaI8vntLvdGbdHpj4Bkqbw/ZGie6Q2LTJob7PW6kk34a9dNvzyHB+45HxoZeNrBHwlMeiQ0emV28R3zTa9ygHmkWOzRJ0m8SIx3306ifvgCTeO74tU1i61+iHZckBpdEF+8SNzSUfliX6J+1I9TvEiMd99NJP30BLnGM36XDuuTUl2lz+HDkkvnFu8RxX/tZ4gD9VXckjnj6fGLm4xN8coJHb94ptunkYFinOEB/Q/4vrDI+n1P4v+1x9Y47OPV3b34D</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-27T21:47:48.393Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="nMYfkxbWg4gLrDh-ywUA" version="17.4.6" type="github">
+  <diagram id="C1GwBR_1Mfds9AIb3B47" name="Page-1">
+    <mxGraphModel dx="754" dy="1492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wlNKsaclVOWKdWXeDJX6-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dxz6Nne_oAzbHLxYzCuJ-1" target="Dxz6Nne_oAzbHLxYzCuJ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dxz6Nne_oAzbHLxYzCuJ-1" value="INICIO" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="205" y="-1169" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wlNKsaclVOWKdWXeDJX6-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dxz6Nne_oAzbHLxYzCuJ-2" target="Dxz6Nne_oAzbHLxYzCuJ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dxz6Nne_oAzbHLxYzCuJ-2" value="a, b, c, d, ee, media : real&lt;br&gt;p1, p2, p3, p4, p5, mediap : real" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="-1070" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wlNKsaclVOWKdWXeDJX6-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dxz6Nne_oAzbHLxYzCuJ-3" target="Dxz6Nne_oAzbHLxYzCuJ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dxz6Nne_oAzbHLxYzCuJ-3" value="escreval (&quot;Digite os valores de A, B, C, D, E: &quot;)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="-1000" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wlNKsaclVOWKdWXeDJX6-5" value="SE" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dxz6Nne_oAzbHLxYzCuJ-4" target="Dxz6Nne_oAzbHLxYzCuJ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dxz6Nne_oAzbHLxYzCuJ-4" value="leia(a)&lt;br&gt;leia (b)&amp;nbsp;&lt;br&gt;leia (c)&lt;br&gt;leia (d)&lt;br&gt;leia (ee)&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="195" y="-910" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wlNKsaclVOWKdWXeDJX6-6" value="SENAO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dxz6Nne_oAzbHLxYzCuJ-5" target="Dxz6Nne_oAzbHLxYzCuJ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wlNKsaclVOWKdWXeDJX6-10" value="ENTAO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dxz6Nne_oAzbHLxYzCuJ-5" target="Dxz6Nne_oAzbHLxYzCuJ-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="-710" />
+              <mxPoint x="440" y="-710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dxz6Nne_oAzbHLxYzCuJ-5" value="(a &amp;gt; b) e (a &amp;gt; c) e (a &amp;gt; d) e (a &amp;gt; ee)&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="133.75" y="-780" width="262.5" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Dxz6Nne_oAzbHLxYzCuJ-7" value="escreval ( a, &quot;[A] é o maior valor !&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="-740" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wlNKsaclVOWKdWXeDJX6-12" value="SENAO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dxz6Nne_oAzbHLxYzCuJ-8" target="Dxz6Nne_oAzbHLxYzCuJ-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="265" y="-400" />
+              <mxPoint x="265" y="-400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wlNKsaclVOWKdWXeDJX6-13" value="ENTAO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dxz6Nne_oAzbHLxYzCuJ-8" target="Dxz6Nne_oAzbHLxYzCuJ-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="-500" />
+              <mxPoint x="440" y="-500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dxz6Nne_oAzbHLxYzCuJ-8" value="(b &amp;gt; a) e (b &amp;gt; c) e (b &amp;gt; d) e (b &amp;gt; ee)&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="133.75" y="-560" width="262.5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Dxz6Nne_oAzbHLxYzCuJ-9" value="escreval ( b, &quot;[B] é o maior valor !&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="-530" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wlNKsaclVOWKdWXeDJX6-8" value="SENAO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dxz6Nne_oAzbHLxYzCuJ-10" target="Dxz6Nne_oAzbHLxYzCuJ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wlNKsaclVOWKdWXeDJX6-14" value="ENTAO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dxz6Nne_oAzbHLxYzCuJ-10" target="Dxz6Nne_oAzbHLxYzCuJ-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="-300" />
+              <mxPoint x="440" y="-300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dxz6Nne_oAzbHLxYzCuJ-10" value="(c &amp;gt; a) e (c &amp;gt; b) e (c &amp;gt; d) e (c &amp;gt; ee)&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="133.75" y="-360" width="262.5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Dxz6Nne_oAzbHLxYzCuJ-11" value="escreval ( c, &quot;[C] é o maior valor !&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="-330" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wlNKsaclVOWKdWXeDJX6-9" value="SENAO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dxz6Nne_oAzbHLxYzCuJ-12" target="Dxz6Nne_oAzbHLxYzCuJ-207">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wlNKsaclVOWKdWXeDJX6-15" value="ENTAO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dxz6Nne_oAzbHLxYzCuJ-12" target="Dxz6Nne_oAzbHLxYzCuJ-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="-100" />
+              <mxPoint x="440" y="-100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dxz6Nne_oAzbHLxYzCuJ-12" value="(d &amp;gt; a) e (d &amp;gt; b) e (d &amp;gt; c) e (d &amp;gt; ee)&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="133.75" y="-160" width="262.5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Dxz6Nne_oAzbHLxYzCuJ-13" value="escreval ( d, &quot;[D] é o maior valor !&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="-130" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wlNKsaclVOWKdWXeDJX6-16" value="ENTAO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dxz6Nne_oAzbHLxYzCuJ-207" target="Dxz6Nne_oAzbHLxYzCuJ-208">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dxz6Nne_oAzbHLxYzCuJ-207" value="(ee &amp;gt; a) e (ee &amp;gt; b) e (ee &amp;gt; c) e (ee &amp;gt; d)&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="133.75" y="40" width="262.5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Dxz6Nne_oAzbHLxYzCuJ-208" value="escreval ( d, &quot;[D] é o maior valor !&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="70" width="210" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
