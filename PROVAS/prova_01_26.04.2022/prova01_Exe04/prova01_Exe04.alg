@@ -3,6 +3,12 @@ Algoritmo "prova01_Exe04"
 // Professor   : Getulio de Morais Pereira 
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 26/04/2022
+// Escreva um algoritmo que leia 5 valores reais quaisquer e apresente, como saidas: 
+//o maior valor
+//o menor valor
+//a media aritmmtica
+//a media ponderada, calculada pela formula
+
 Var
 // variaveis 
 a, b, c, d, ee, media : real
