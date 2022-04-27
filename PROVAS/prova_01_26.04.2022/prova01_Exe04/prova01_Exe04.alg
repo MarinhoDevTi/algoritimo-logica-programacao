@@ -101,7 +101,7 @@ escreval ("------------------------------------------")
 
 //Media aritimetica
 media <-  ((a + b + c + d + ee) / 5)
-//media <- media / 5
+
 escreval ("A media aritimetica e :", media)
 escreval ("------------------------------------------")
 
