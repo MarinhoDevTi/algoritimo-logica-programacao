@@ -56,7 +56,10 @@ senao
                 escreva("O Valor ", d)
                 escreval(" [D] e o maior Valor !")
             senao
-                escreval("cont") 
+                se (ee > a) e (ee > b) e (ee > c) e (ee > d) entao 
+                    escreva("O Valor ", e)
+                    escreval(" [E] e o maior Valor !")
+                fimse
             fimse
         fimse
     fimse    
