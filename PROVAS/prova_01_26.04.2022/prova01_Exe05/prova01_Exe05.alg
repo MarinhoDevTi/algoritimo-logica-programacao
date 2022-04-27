@@ -3,17 +3,20 @@ Algoritmo "prova01_Exe05"
 // Professor   : Getulio de Morais Pereira 
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 27/04/2022
-// Uma empresa decidiu dar uma gratificação de Natal a seus
-// funcionários, baseada no número de horas extras e no número de
-// horas que o funcionário faltou ao trabalho. O valor do prêmio é
-// obtido pela consulta à tabela 1, onde:
+// Uma empresa decidiu dar uma gratificacao de Natal a seus
+// funcionarios, baseada no numero de horas extras e no numero de
+// horas que o funcionario faltou ao trabalho. O valor do premio e
+// obtido pela consulta a tabela 1, onde:
 
 Var
-// Seção de Declarações das variáveis 
+// variaveis
+H_horas, H_horasExtras, H_horasFaltas : real  
 
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// inicio do algoritimo  
+escreval ("-=-=-=-=-= Bonûs Salarial de Natal =-=-=-=-=-")
+
 
 
 Fimalgoritmo
