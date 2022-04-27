@@ -6,6 +6,7 @@ Algoritmo "prova01_Exe04"
 Var
 // variaveis 
 a, b, c, d, ee, media : real
+p1, p2, p3, p4 : real
 
 
 Inicio
@@ -92,8 +93,22 @@ fimse
 escreval ("------------------------------------------")
 
 //Media aritimetica
-media <- ( a + b + c + d + e) / 5
-escreval ("A média aritimética é :", media)
+media <-  ((a + b + c + d + ee) / 5)
+//media <- media / 5
+escreval ("A media aritimetica e :", media)
+
+//Media Ponderada
+p1 <- (a / ( a + b + c + d + ee) )
+escreval ("Média ponderada de 1: ", p1)
+
+p2 <- (b / ( a + b + c + d + ee) )
+escreval ("Média ponderada de 1: ", p1)
+
+p3 <- (c / ( a + b + c + d + ee) )
+escreval ("Média ponderada de 1: ", p1)
+
+p4 <- (a / ( a + b + c + d + ee) )
+escreval ("Média ponderada de 1: ", p1)
 
 
 
