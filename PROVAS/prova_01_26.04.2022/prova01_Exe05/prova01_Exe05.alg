@@ -10,12 +10,30 @@ Algoritmo "prova01_Exe05"
 
 Var
 // variaveis
-H_horas, H_horasExtras, H_horasFaltas : real  
+H_horas, H_horasExtras, H_horasFaltas, H_minutos, H_premio : real  
 
 
 Inicio
-// inicio do algoritimo  
-escreval ("-=-=-=-=-= Bonûs Salarial de Natal =-=-=-=-=-")
+    // inicio do algoritimo  
+    escreval ("-=-=-=-=-= Bônus Salarial de Natal =-=-=-=-=-")
+    escreval ("---------------------------------------------")
+
+    escreva ("Digite o Numero de horas extras do funcionário : ")
+    leia (H_horasExtras)
+    escreval ("")
+    escreval ("---------------------------------------------")
+
+    escreva ("Digite o Numero de horas de faltas: ")
+    leia (H_horasFaltas)
+    escreval(")
+    escreval ("---------------------------------------------")
+
+    H_horas <- ( H_horasExtras - ( 2/3) * H_horasFaltas)
+    escreval ("Horas", H_horas)
+
+
+
+
 
 
 
