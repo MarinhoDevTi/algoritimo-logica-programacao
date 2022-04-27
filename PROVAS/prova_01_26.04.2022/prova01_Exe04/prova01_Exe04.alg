@@ -5,7 +5,7 @@ Algoritmo "prova01_Exe04"
 // Data atual  : 26/04/2022
 Var
 // variaveis 
-a, b, c, d, ee : real
+a, b, c, d, ee, media : real
 
 
 Inicio
@@ -89,6 +89,13 @@ senao
         fimse
     fimse    
 fimse 
+escreval ("------------------------------------------")
+
+//Media aritimetica
+media <- ( a + b + c + d + e) / 5
+escreval ("A média aritimética é :", media)
+
+
 
 
 Fimalgoritmo
