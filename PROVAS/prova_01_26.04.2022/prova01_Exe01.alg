@@ -20,7 +20,7 @@ escreval ("-------------------------------------------------------")
 escreval ("Digite o valor do Raio")
 leia (raio)
 
-//proceçamento de dados
+//procecamento de dados
 pi <- 3.14
 poten <- pot (raio,3)
 
