@@ -5,7 +5,7 @@ Algoritmo "prova01_Exe04"
 // Data atual  : 26/04/2022
 Var
 // variaveis 
-a1, b2, c3, d4, e5 : real
+a, b, c, d, ee : real
 
 
 Inicio
@@ -16,34 +16,45 @@ escreval ("------------------------------------------")
 
 //leitura de dados
 escreva ("Digite o Valor A: ")
-leia (a1)
+leia (a)
 escreval ("")
 
 escreva ("Digite o Valor B: ")
-leia (b2)
+leia (b)
 escreval ("")
 
 escreva ("Digite o Valor C: ")
-leia (c3)
+leia (c)
 escreval ("")
 
 escreva ("Digite o Valor D: ")
-leia (d4)
+leia (d)
 escreval ("")
 
 escreva ("Digite o Valor E: ")
-leia (e5)
+leia (ee)
 escreval ("")
 
 escreval ("------------------------------------------")
 
 //processamento de dados
 
-se (a1 > b2) e (a1 > c3) e (a1 > d4) e (a1 > e5) entao 
-    escreva("O Valor ", a1)
+// Quem e o maior valor 
+se (a > b) e (a > c) e (a > d) e (a > ee) entao 
+    escreva("O Valor ", a)
     escreval(" [A] e o maior Valor !")
 senao 
-    escreval("procima condicao")
+    se (b > a) e (b > c) e (b > d) e (b > ee) entao 
+        escreva("O Valor ", b)
+        escreval(" [B] e o maior Valor !")
+    senao
+        se (c > a) e (c > b) e (c > d) e (c > ee) entao 
+            escreva("O Valor ", c)
+            escreval(" [C] e o maior Valor !")
+        senao
+            escreva ("Finan")
+        fimse
+    fimse    
 fimse 
 
 
