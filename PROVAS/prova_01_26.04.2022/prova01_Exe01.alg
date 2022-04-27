@@ -5,7 +5,7 @@ Algoritmo "prova01_Exe01"
 // Data atual  : 26/04/2022
 Var
 // variaveis 
-raio, volume, pi, r3 : real 
+raio, volume, pi, ra3 : real 
 
 
 
@@ -22,11 +22,11 @@ leia (raio)
 
 //proceçamento de dados
 pi <- 3.14
-r3 <- pot (raio,3)
+ra3 <- pot (raio,3)
 
-//volume <- (4 / 3) * pi * r3
+//volume <- (4 / 3) * pi * ra3
 
-escreval ("Este é o Valor de r3", r3)
+escreval ("Este é o Valor de ra3", ra3)
 
 
 
