@@ -52,7 +52,12 @@ senao
             escreva("O Valor ", c)
             escreval(" [C] e o maior Valor !")
         senao
-            escreva ("Finan")
+            se (d > a) e (d > b) e (d > c) e (d > ee) entao 
+                escreva("O Valor ", d)
+                escreval(" [D] e o maior Valor !")
+            senao
+                escreval("cont") 
+            fimse
         fimse
     fimse    
 fimse 
