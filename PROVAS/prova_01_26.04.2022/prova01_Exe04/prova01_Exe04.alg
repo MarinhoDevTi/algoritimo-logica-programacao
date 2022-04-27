@@ -3,6 +3,7 @@ Algoritmo "prova01_Exe04"
 // Professor   : Getulio de Morais Pereira 
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 26/04/2022
+// Escreva um algoritmo que leia 5 valores reais quaisquer e apresente, como saidas: 
 Var
 // variaveis 
 a, b, c, d, ee, media : real
