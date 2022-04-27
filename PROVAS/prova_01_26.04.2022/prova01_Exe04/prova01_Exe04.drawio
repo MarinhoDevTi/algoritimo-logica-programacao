@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-27T21:47:48.393Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="nMYfkxbWg4gLrDh-ywUA" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-27T21:55:58.143Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="6Kqd0It34uXsYCHEfHze" version="17.4.6" type="github">
   <diagram id="C1GwBR_1Mfds9AIb3B47" name="Page-1">
-    <mxGraphModel dx="754" dy="1492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
+    <mxGraphModel dx="3126" dy="2506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -42,6 +42,15 @@
         <mxCell id="Dxz6Nne_oAzbHLxYzCuJ-5" value="(a &amp;gt; b) e (a &amp;gt; c) e (a &amp;gt; d) e (a &amp;gt; ee)&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="133.75" y="-780" width="262.5" height="140" as="geometry" />
         </mxCell>
+        <mxCell id="wlNKsaclVOWKdWXeDJX6-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dxz6Nne_oAzbHLxYzCuJ-7" target="wlNKsaclVOWKdWXeDJX6-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="840" y="-710" />
+              <mxPoint x="840" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Dxz6Nne_oAzbHLxYzCuJ-7" value="escreval ( a, &quot;[A] é o maior valor !&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="-740" width="210" height="60" as="geometry" />
         </mxCell>
@@ -64,6 +73,11 @@
         <mxCell id="Dxz6Nne_oAzbHLxYzCuJ-8" value="(b &amp;gt; a) e (b &amp;gt; c) e (b &amp;gt; d) e (b &amp;gt; ee)&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="133.75" y="-560" width="262.5" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="wlNKsaclVOWKdWXeDJX6-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dxz6Nne_oAzbHLxYzCuJ-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="-500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Dxz6Nne_oAzbHLxYzCuJ-9" value="escreval ( b, &quot;[B] é o maior valor !&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="-530" width="210" height="60" as="geometry" />
         </mxCell>
@@ -80,6 +94,11 @@
         </mxCell>
         <mxCell id="Dxz6Nne_oAzbHLxYzCuJ-10" value="(c &amp;gt; a) e (c &amp;gt; b) e (c &amp;gt; d) e (c &amp;gt; ee)&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="133.75" y="-360" width="262.5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wlNKsaclVOWKdWXeDJX6-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Dxz6Nne_oAzbHLxYzCuJ-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="-300" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Dxz6Nne_oAzbHLxYzCuJ-11" value="escreval ( c, &quot;[C] é o maior valor !&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="-330" width="210" height="60" as="geometry" />
@@ -98,17 +117,33 @@
         <mxCell id="Dxz6Nne_oAzbHLxYzCuJ-12" value="(d &amp;gt; a) e (d &amp;gt; b) e (d &amp;gt; c) e (d &amp;gt; ee)&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="133.75" y="-160" width="262.5" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="wlNKsaclVOWKdWXeDJX6-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dxz6Nne_oAzbHLxYzCuJ-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="-100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Dxz6Nne_oAzbHLxYzCuJ-13" value="escreval ( d, &quot;[D] é o maior valor !&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="-130" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wlNKsaclVOWKdWXeDJX6-16" value="ENTAO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dxz6Nne_oAzbHLxYzCuJ-207" target="Dxz6Nne_oAzbHLxYzCuJ-208">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="wlNKsaclVOWKdWXeDJX6-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dxz6Nne_oAzbHLxYzCuJ-207" target="wlNKsaclVOWKdWXeDJX6-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Dxz6Nne_oAzbHLxYzCuJ-207" value="(ee &amp;gt; a) e (ee &amp;gt; b) e (ee &amp;gt; c) e (ee &amp;gt; d)&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="133.75" y="40" width="262.5" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="wlNKsaclVOWKdWXeDJX6-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dxz6Nne_oAzbHLxYzCuJ-208">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Dxz6Nne_oAzbHLxYzCuJ-208" value="escreval ( d, &quot;[D] é o maior valor !&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="70" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wlNKsaclVOWKdWXeDJX6-23" value="FIMSE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="192.5" y="290" width="145" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
