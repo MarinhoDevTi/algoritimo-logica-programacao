@@ -6,8 +6,13 @@ Algoritmo "prova01_Exe04"
 // Escreva um algoritmo que leia 5 valores reais quaisquer e apresente, como saidas: 
 //o maior valor
 //o menor valor
+<<<<<<< HEAD
 //a media aritmmtica
 //a media ponderada, calculada pela formula
+=======
+//a média aritmética
+//a média ponderada, calculada pela fórmula
+>>>>>>> b67b5ce5dcc0258a41fddca9c2949063eb6c1558
 
 Var
 // variaveis 
