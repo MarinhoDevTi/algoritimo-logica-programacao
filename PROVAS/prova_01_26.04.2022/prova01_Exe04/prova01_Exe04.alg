@@ -64,6 +64,31 @@ senao
         fimse
     fimse    
 fimse 
+// Quem e o menor valor 
+se (a < b) e (a < c) e (a < d) e (a < ee) entao 
+    escreva("O Valor ", a)
+    escreval(" [A] e o menor Valor !")
+senao 
+    se (b < a) e (b < c) e (b < d) e (b < ee) entao 
+        escreva("O Valor ", b)
+        escreval(" [B] e o menor Valor !")
+    senao
+        se (c < a) e (c < b) e (c < d) e (c < ee) entao 
+            escreva("O Valor ", c)
+            escreval(" [C] e o menor Valor !")
+        senao
+            se (d < a) e (d < b) e (d < c) e (d < ee) entao 
+                escreva("O Valor ", d)
+                escreval(" [D] e o menor Valor !")
+            senao
+                se (ee < a) e (ee < b) e (ee < c) e (ee < d) entao 
+                    escreva("O Valor ", ee)
+                    escreval(" [E] e o menor Valor !")
+                fimse
+            fimse
+        fimse
+    fimse    
+fimse 
 
 
 Fimalgoritmo
