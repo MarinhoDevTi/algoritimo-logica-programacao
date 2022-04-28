@@ -53,9 +53,11 @@ Inicio
             fimse
         fimse
     fimse
-
+    
+    escreval ("+---------------------------------------------+")
     escreva ("O Funcionario vai receber o premio no valor de: R$", H_premio)
-    escreval ("---------------------------------------------")
+    escreval("")
+    escreval ("+---------------------------------------------+")
 
 
 Fimalgoritmo
