@@ -20,7 +20,7 @@ Inicio
     leia (raio)
 
     //procecamento
-    volume <- (3/4) * pi * raio * ( raio * raio)
+    volume <- (3/4) * pi * raio^3
     escreval ("-------------------------------------------------------")
 
     //saida do resultado 
