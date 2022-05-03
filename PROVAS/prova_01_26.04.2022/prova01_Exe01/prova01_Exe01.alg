@@ -20,18 +20,12 @@ Inicio
     leia (raio)
 
     //procecamento
-    volume <- (3/4) * pi * raio^3
+    volume <- 3/4 * pi * raio^3
     escreval ("-------------------------------------------------------")
 
     //saida do resultado 
     escreval ("o Volume de uma esfera e: ", volume)    
-    escreval ("-------------------------------------------------------")
-    
-
-    
-
-
-    
+    escreval ("-------------------------------------------------------")   
 
 
 
