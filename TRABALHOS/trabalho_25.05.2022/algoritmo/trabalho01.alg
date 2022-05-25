@@ -29,12 +29,22 @@ min : inteiro
         enquanto ind (> 0) faca
 
             se (ind < 0 ) entao 
-                escreval ("Valor menor que zer, Digite Novamente !)
+                escreval ("Valor menor que zer, Digite Novamente !")
             senao
-                se (ind ) entao
+                se (ind > max ) entao
+                    max <- ind
                 senao
+                    se (ind < min) entao
+                        min <- ind                
+                    fimse
                 fimse
             fimse
+            escreval ("+-=-=-=-=-=-=-=-=-=-=-=-+")
+            escreval ("O maior número é: ", max)
+            escreval ("O menor número é: ", min)
+            escreval ("+-=-=-=-=-=-=-=-=-=-=-=-=-+")
+
+        fimenquanto
                  
 
          
