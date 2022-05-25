@@ -17,8 +17,27 @@ Algoritmo "trabalho_01"
 Var
 // variaveis
 ind : inteiro 
+max : inteiro 
+min : inteiro 
 
     Inicio
+        int <- 0
+        escreval ("Digite um número : ")
+        escreval ("Ou digite 0 para parar o programa")
+        leia (ind)
+
+        enquanto ind (> 0) faca
+
+            se (ind < 0 ) entao 
+                escreval ("Valor menor que zer, Digite Novamente !)
+            senao
+                se (ind ) entao
+                senao
+                fimse
+            fimse
+                 
+
+         
 
 
 
