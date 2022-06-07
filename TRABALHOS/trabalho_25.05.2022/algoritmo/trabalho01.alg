@@ -26,10 +26,10 @@ min : inteiro
         escreval ("Ou digite 0 para parar o programa")
         leia (ind)
 
-        enquanto ind (> 0) faca
+        enquanto (ind > 0) faca
 
             se (ind < 0 ) entao 
-                escreval ("Valor menor que zer, Digite Novamente !")
+                escreval ("Valor menor que zero, Digite Novamente !")
             senao
                 se (ind > max ) entao
                     max <- ind
@@ -39,13 +39,12 @@ min : inteiro
                     fimse
                 fimse
             fimse
-            escreval ("+-=-=-=-=-=-=-=-=-=-=-=-+")
+            escreval ("+-=-=-=-=-=-=-=-=-=-=-=-=-+")
             escreval ("O maior número é: ", max)
             escreval ("O menor número é: ", min)
             escreval ("+-=-=-=-=-=-=-=-=-=-=-=-=-+")
 
-        fimenquanto
-                 
+        fimenquanto  
 
          
 
