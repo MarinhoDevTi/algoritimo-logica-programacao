@@ -17,12 +17,30 @@ Algoritmo "semnome"
 // Data atual  : 08/06/2022
 Var
 
-cod_cd, num_vei, num_acd, cont, 
+cod_cda, num_vei, num_acd, cont, maior, 
 // Variaveis
 
 
 Inicio
 // Inicio do pseudo Algoritimo
+
+    // inicio do bloco enquanto 
+    enquanto ( cont <= 4) faca
+        cod_cda <- 0
+        num_vei <- 0
+
+        // leitura de valores
+        escreval ("Digite o codigo da", cont, " ª cidade: ")
+        leia (cod_cda)
+
+        escreval ("Digite o numero de veiculos de passeio da", cont, " ª cidade: ")
+        leia (num_vei)
+
+        escreval ("Digite o numero de acidentes de transito com vitimas da", cont, " ª cidade: ")
+        leia (num_acd)
+
+
+    fimenquanto
 
 
 
