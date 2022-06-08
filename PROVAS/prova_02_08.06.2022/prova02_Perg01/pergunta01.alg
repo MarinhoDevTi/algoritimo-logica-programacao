@@ -45,7 +45,13 @@ Inicio
             escreval (" !!! Este produto teve um acrecimo de 15% !!!")
             escreval ("-")
         senao
-            escreval ("Test")
+            se (vmedia_m >= 1.200) e (preco_a >=80) entao
+                preco_n <- preco_a - (preco_a * ( 20 / 100))
+                escreval ("Este e o novo Valor do produto: ", preco_n)
+                escreval ("--------------------------------------")
+                escreval ("!!! Este produto teve um desconto de 20% !!!")              
+            
+            fimse
         fimse
     fimse
 
