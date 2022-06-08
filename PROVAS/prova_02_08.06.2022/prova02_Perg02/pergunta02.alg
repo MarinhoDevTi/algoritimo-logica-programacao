@@ -22,7 +22,9 @@ cod_cd, num_vei, num_acd, cont,
 
 
 Inicio
-// Seçã 
+// Inicio do pseudo Algoritimo
+
+
 
 
 Fimalgoritmo
