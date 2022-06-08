@@ -20,48 +20,55 @@ stp : inteiro
 Inicio
     // onde comeca o pseudoalgoritmo 
     REPITA
-        escreval ("***********************************")
-        escreval ("******** Venda Media Mensal *******")
-        escreval ("***********************************") 
+        escreval ("****************************************************************")
+        escreval ("******************** Venda Media Mensal ************************")
+        escreval ("****************************************************************") 
+        escreval("")
+        escreval("")
     
        
 
         //leitura de dados ...
         escreva ("Qual o Valor da venda media mensal ?  R$ ")    
         leia (vmedia_m)
-        escreval ("---------------------------------------")
+        escreval ("-----------------------------------------------------------------")
         
         escreva ("Digite o preco atual de venda:  R$ ")    
         leia (preco_a)
-        escreval ("---------------------------------------")
+        escreval ("------------------------------------------------------------------")
 
         // processamento de dados 
         se (vmedia_m < 500 ) e (preco_a < 30) entao
             preco_n <-  preco_a + (preco_a * (10 / 100))
             escreval ("Este e o novo Valor do produto: R$", preco_n)
-            escreval ("--------------------------------------")
+            escreval ("-----------------------------------------------------------------")
             escreval (" !!! Este produto teve um acrecimo de 10% !!!")
             escreval ("-")
         senao
             se ( vmedia_m >=500) e (vmedia_m < 1.200) e (preco_a >=30) e (preco_a <80) entao
                 preco_n <- preco_a + (preco_a * (15 / 100))
                 escreval ("Este e o novo Valor do produto: ", preco_n)
-                escreval ("--------------------------------------")
+                escreval ("---------------------------------------------------------------------")
                 escreval (" !!! Este produto teve um acrecimo de 15% !!!")
                 escreval ("-")
             senao
                 se (vmedia_m >= 1.200) e (preco_a >=80) entao
                     preco_n <- preco_a - (preco_a * ( 20 / 100))
                     escreval ("Este e o novo Valor do produto: ", preco_n)
-                    escreval ("--------------------------------------")
+                    escreval ("--------------------------------------------------------------")
                     escreval ("!!! Este produto teve um desconto de 20% !!!")              
                 
                 fimse
             fimse
-        fimset
-    escreva ("Para desligar o programa digite ((( 0 ))) ")
-    escreval ("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=)
+        fimse
+    // finalizacao do programa
+    escreval ("")
+    escreval ("") 
+    escreval ("Digite qualquer numero para continuar !!!")
+    escreva (" Ou digite ((( -> 0 <- ))) para finalizar ")
+    
     leia (stp)
+    escreval ("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=")
     limpatela()
     ATE stp = 0 
 
