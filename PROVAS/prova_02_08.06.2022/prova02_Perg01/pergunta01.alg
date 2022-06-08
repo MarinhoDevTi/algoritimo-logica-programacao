@@ -1,15 +1,55 @@
 Algoritmo "semnome"
 // Disciplina   : Algoritimo e Logica de Programacao
 // Professor   : Getulio de Morais Pereira 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Descrição   : 
+// Um supermercado deseja reajustar os precos de seus produtos
+// usando o seguinte criterio: o produto podera ter seu preco 
+// aumentado ou diminuido. Para o preco ser alterado, o produto
+// deve preencher pelo menos um dos requisitos a seguir: 
+// !!! Faca um Algoritimo que receba o preco atual e a venda media mensal
+// doo produto, e mostre o novo preco !!!
+// Diogo Marinho da Silva 
 // Data atual  : 08/06/2022
+
 Var
-// Seção de Declarações das variáveis 
+// Variaveis
+vmedia_m, preco_a, preco_n :  real 
 
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+    // onde comeca o pseudoalgoritmo 
+    escreval ("***********************************")
+    escreval ("******** Venda Media Mensal *******")
+    escreval ("***********************************") 
+    escreva ("Qual o Valor da venda media mensal ?  R$ ")
+    
+    leia (vmedia_m)
+    escreval ("---------------------------------------")
+    
+    escreva ("Digite o preco atual de venda:  R$ ")
+    
+    leia (preco_a)
+    escreval ("---------------------------------------")
+
+    se (vmedia_m < 500 ) e (preco_a < 30) entao
+        preco_n <-  preco_a + (preco_a * (10 / 100))
+        escreval ("Este e o novo Valor do produto: R$", preco_n)
+        escreval ("***********************************")
+        escreval (" !!! Este produto teve um acrecimo de 10% !!!")
+        escreval ("-")
+    senao
+        se ( vmedia_m >=500) e (vmedia_m < 1.200) e (preco_a >=30) e (preco_a <80) entao
+            preco_n <- preco_a + (preco_a * (15 / 100))
+            escreval ("Este e o novo Valor do produto: ", preco_n)
+            escreval ("***********************************")
+            escreval (" !!! Este produto teve um acrecimo de 15% !!!")
+            escreval ("-")
+        senao
+            escreval ("Test")
+        fimse
+    fimse
+
+
 
 
 Fimalgoritmo
