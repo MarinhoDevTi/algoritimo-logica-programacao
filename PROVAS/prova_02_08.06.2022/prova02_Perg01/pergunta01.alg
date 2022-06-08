@@ -19,12 +19,12 @@ stp : inteiro
 
 Inicio
     // onde comeca o pseudoalgoritmo 
-    escreval ("***********************************")
-    escreval ("******** Venda Media Mensal *******")
-    escreval ("***********************************") 
     REPITA
-        escreval ("Para desligar o programa digite > 0 < ")
-        leia (stp)
+        escreval ("***********************************")
+        escreval ("******** Venda Media Mensal *******")
+        escreval ("***********************************") 
+    
+       
 
         //leitura de dados ...
         escreva ("Qual o Valor da venda media mensal ?  R$ ")    
@@ -58,7 +58,11 @@ Inicio
                 
                 fimse
             fimse
-        fimse
+        fimset
+    escreva ("Para desligar o programa digite ((( 0 ))) ")
+    escreval ("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=)
+    leia (stp)
+    limpatela()
     ATE stp = 0 
 
 
