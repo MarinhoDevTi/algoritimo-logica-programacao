@@ -16,13 +16,14 @@ Algoritmo "semnome"
 // Autor(a)    : Diogo Marinho da Sivla 
 // Data atual  : 08/06/2022
 
-
-Var
 // Variaveis
-cod_cda, num_vei, num_acd, cont, 
-maior, menor, menor_cda, maior_cda, total_vei : inteiro
+Var
+num_vei, num_acid, num_cda : inteiro
+menor_cda, menor, maior, maior_cda, cod_cda : inteiro
+total_vei2k, cda2_2k, total_vei2k : inteiro
+total_vei, cont, media_vei, media_2k : inteiro 
 
-
+media_vei, media_2k : real
 
 
 Inicio
@@ -31,12 +32,18 @@ Inicio
     //declaracao de variaveis
     cod_cda <- 0
     num_vei <- 0
-    num_acd <- 0
+    num_acid <- 0
     cont <- 0
     maior <- 0
     menor <- 0 
     menor_cda <- 0
     maior_cda <- 0
+    cda2_2k <- 0
+    total_vei2k <- 0
+    total_vei <- 0
+    media_vei <- 0
+    media_2k <- 0
+
 
 
 
@@ -76,7 +83,9 @@ Inicio
         media_vei <- total_vei / 5
 
         se (num_vei < 2000) entao 
-            t_vei2k
+            total_vei2k <- total_vei2k + num_acd
+            cda2_2k <- cda2_2k + 1
+            media_2k <- total_vei2k / cda2_2k 
         fimse 
 
                             
