@@ -3,3 +3,4 @@ Elaborar um algoritmo em pseudocódigo que efetue a leitura de um número inteir
 apresente uma mensagem no console informando se esse número é par ou ı́mpar.*#
 
 """
+print("Olá digite um nu")
