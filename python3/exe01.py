@@ -7,7 +7,7 @@ apresente uma mensagem no console informando se esse número é par ou ı́mpar.
 num = int(input("Digite um numero : "))
 
 if num > 0: 
-    if (num % 2) : 
+    if num % 2 == 0 : 
         print("O numero (", num, ") É par !")
     else:
         print("O numero (", num, ") É impar !")
