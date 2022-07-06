@@ -33,7 +33,7 @@ inicio
     escreval("")
     escreval("----------------------------------------------------")
 
-    se (base <= 0) e (alt <= 0) entao
+    se (bas <= 0) ou (alt <= 0) entao
         escreval (" !! Erro !! Voce digitou um numero ")
         escreval("===================================================")
     senao
