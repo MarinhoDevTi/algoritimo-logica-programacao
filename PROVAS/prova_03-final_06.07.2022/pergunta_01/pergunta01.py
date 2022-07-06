@@ -28,6 +28,7 @@ algoritmo "Pergunta 01"
 // * código-fonte em Python3
 // * a entrega deve ser realizada via arquivo compactado ( .zip )
 
+#vou faer
 
 // Declaracoes de variaveis ...
 var
