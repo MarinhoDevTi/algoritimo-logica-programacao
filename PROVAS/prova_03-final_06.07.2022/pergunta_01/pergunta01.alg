@@ -33,11 +33,11 @@ inicio
     escreval("")
     escreval("----------------------------------------------------")
 
-    se (base <= 0) e (altura <= 0) entao
+    se (base <= 0) e (alt <= 0) entao
         escreval (" !! Erro !! Voce digitou um numero ")
         escreval("===================================================")
     senao
-        are <- ( bas * alt)
+        are <- ( bas * alt) / 2
         Escreval ("Esta e a area do triangulo: ", are) 
         escreval("===================================================")   
     fimse
