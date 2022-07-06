@@ -13,8 +13,33 @@ algoritmo "Pergunta 01"
 // * pseudocódigo em VisuAlg
 // * código-fonte em Python3
 // * a entrega deve ser realizada via arquivo compactado ( .zip )
-// * var
+
+
+// Declaracoes de variaveis ...
+var
+bas, alt, are : real
 
 inicio
-// Seção de Comandos 
+    escreval("....::: Vamos calcular a area do Triangulo :::....")
+    escreval("Vamos começar !!!")
+    escreval("===================================================")
+    escreva("Digite o valor da base: ")
+    leia (bas)
+    escreval("")
+    escreval("----------------------------------------------------")
+    
+    escreva("Digite o valor da altura: ")
+    leia (alt)
+    escreval("")
+    escreval("----------------------------------------------------")
+
+    se (base <= 0) e (altura <= 0) entao
+        escreval (" !! Erro !! Voce digitou um numero ")
+        escreval("===================================================")
+    senao
+        are <- ( bas * alt)
+        Escreval ("Esta e a area do triangulo: ", are) 
+        escreval("===================================================")   
+    fimse
+ 
 fimalgoritmo
