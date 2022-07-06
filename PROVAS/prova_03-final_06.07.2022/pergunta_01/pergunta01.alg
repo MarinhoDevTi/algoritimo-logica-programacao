@@ -34,7 +34,7 @@ inicio
     escreval("----------------------------------------------------")
 
     se (bas <= 0) ou (alt <= 0) entao
-        escreval (" !! Erro !! Voce digitou um numero ")
+        escreval (" !! Erro !! Voce digitou um numero negativo ! ")
         escreval("===================================================")
     senao
         are <- ( bas * alt) / 2
