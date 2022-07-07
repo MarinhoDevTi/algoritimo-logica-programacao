@@ -99,7 +99,7 @@ rep : caractere
             pon3 <- (not_03 / ( not_01 + not_02 + not_03) )
 
             mpond <- ((not_01 * pon1) + (not_02 * pon2) + (not_03 * pon3) / 3 )
-            escreval ("O Valor da media ponderada e: ", mediap)
+            escreval ("O Valor da media ponderada e: ", mpond)
             escreval ("=========================================================")
 
         escreva("Nova operacao? (s,n) ")
