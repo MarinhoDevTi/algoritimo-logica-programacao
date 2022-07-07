@@ -48,16 +48,18 @@ R : caractere
     funcao md_aritmetica () : caractere
         var
         not_01, not_02, m_arit : real
+        op : caractere
         inicio
-            escreval("..:: Vamos calcular as Notas ::..")
+            limpatela
+            escreval("..:: Vamos calcular a media das Notas ::..")
             escreval("====================================")
             escreval("")
-            escreva ("Digite a primeira nota: ")
-            escreval ("-----------------------------------")
+            escreva ("Digite a primeira nota: ")            
             leia (not_01)
-            escreva ("Digite a segunda nota: ")
             escreval ("-----------------------------------")
+            escreva ("Digite a segunda nota: ")            
             leia (not_02)
+            escreval ("-----------------------------------")
 
             m_arit <- (not_01 + not_02) / 2
 
@@ -72,7 +74,34 @@ R : caractere
     funcao md_ponderada () : caractere
         var
         not_01, not_02, not_03 : real
+        pon1, pon2, pon3, mpond : real
+        op : caractere
+
         inicio
+
+            limpatela
+            escreval("..:: Vamos calcular a media ponderada das Notas ::..")
+            escreval("====================================")
+            escreval("")
+            
+            escreva ("Digite a primeira nota: ")            
+            leia (not_01)
+            escreval ("-----------------------------------")
+            escreva ("Digite a segunda nota: ")            
+            leia (not_02)
+            escreval ("-----------------------------------")
+            escreva("Digite a terceira nota: ")
+            leia (not_03)
+
+            //Media Ponderada
+            pon1 <- (not_01 / ( not_01 + not_02 + not_03) )
+            pon2 <- (not_02 / ( not_01 + not_02 + not_03) )
+            pon3 <- (not_03 / ( not_01 + not_02 + not_03) )
+
+            mpond <- ((not_01 * pon1) + (not_02 * pon2) + (not_03 * pon3) / 3 )
+            escreval ("O Valor da media ponderada e: ", mediap)
+            escreval ("=========================================================")
+
         escreva("Nova operacao? (s,n) ")
         leia( op )
         retorne op
