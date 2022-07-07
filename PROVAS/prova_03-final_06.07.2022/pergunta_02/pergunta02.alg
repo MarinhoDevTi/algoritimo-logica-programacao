@@ -16,7 +16,7 @@ algoritmo "pergunta 02"
 
 var
 opcao : inteiro
-R : caractere
+rep : caractere
 
   //funcao mostra menu
     funcao mostrar_menu() : inteiro
@@ -35,7 +35,7 @@ R : caractere
             escreva("  Opcao: ")
             leia( op )
 
-            se (op < 1) ou (op > 5) entao
+            se (op < 1) ou (op > 3) entao
                 escreval("Opcao invalida!")
                 escreval("Pressione uma tecla para continuar")
                 leia( x )
@@ -108,5 +108,18 @@ R : caractere
     fimfuncao
 
 inicio
+    repita
+        opcao <- mostrar_menu()
+            se opcao = 1 entao
+                rep <- md_aritmetica()
+            senao
+                se opcao = 2 entao
+                    rep <- md_ponderada ()                    
+                fimse
+            fimse
+        se rep = "n" entao
+            opcao <- 3
+        fimse
+    ate opcao = 3
  
 fimalgoritmo
