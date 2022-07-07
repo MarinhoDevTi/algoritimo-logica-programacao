@@ -1,0 +1,22 @@
+questao 03
+
+  problema:
+	identificar o maior de 3 numeros
+ 	identificar o menor de 3 numeros
+
+  dados de entrada:   x y z   inteiros
+
+  processamento
+      
+      x     y    z
+      5     4    3   ==> (x > y) e (x > z)   
+      4     5    3       (y > x) e (y > z)
+      4     3    5       
+
+
+
+
+
+  saidas esperadas
+	o maior dos 3 valores
+	o menor dos 3 valores

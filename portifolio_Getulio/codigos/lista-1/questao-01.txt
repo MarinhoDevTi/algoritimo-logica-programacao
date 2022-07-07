@@ -1,0 +1,12 @@
+questao 1
+
+   dados de entradas
+	um numero inteiro e positivo( x : inteiro )
+
+   processamento
+	x % 2 = 0   se verdadeiro --> identifica x como par
+                    senao         --> identifica x como impar
+                    
+   dados de saida
+	mensagem na tela: X é par  
+                          X é impar
