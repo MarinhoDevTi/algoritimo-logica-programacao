@@ -1,12 +1,14 @@
 algoritmo "calculadora"
 var
-  opcao : inteiro
-  R : caractere
-  
+opcao : inteiro
+R : caractere
+
+  //funcao mostra menu
   funcao mostrar_menu() : inteiro
   var
-     op : inteiro
-     x : caractere
+   op : inteiro
+   x : caractere
+
   inicio
 
     repita
@@ -30,7 +32,7 @@ var
     retorne op
   fimfuncao
   
-  
+  //funcao calcula soma
   funcao calcular_soma() : caractere
   var
      x, y : real
@@ -48,23 +50,26 @@ var
      retorne op
   fimfuncao
   
+  //funcao calcula subtracao
   funcao calcular_subtracao() : caractere
-  var
-     x, y : real
-     op : caractere
-  inicio
-     limpatela
-     escreval(".:: Operacao: subtracao ::.")
-     escreva("   x = ")
-     leia( x )
-     escreva("   y = ")
-     leia( y )
-     escreval(x, " - ", y, " = ", (x - y))
-     escreva("Nova operacao? (s,n) ")
-     leia( op )
-     retorne op
+      var
+         x, y : real
+         op : caractere
+      inicio
+         limpatela
+         escreval(".:: Operacao: subtracao ::.")
+         escreva("   x = ")
+         leia( x )
+         escreva("   y = ")
+         leia( y )
+         escreval(x, " - ", y, " = ", (x - y))
+         escreva("Nova operacao? (s,n) ")
+         leia( op )
+         retorne op
   fimfuncao
 
+
+   //funcao calcula multiplicacao
   funcao calcular_multiplicacao() : caractere
   var
      x, y : real
@@ -82,6 +87,8 @@ var
      retorne op
   fimfuncao
 
+
+  //funcao calcula divisao
   funcao calcular_divisao() : caractere
   var
      x, y : real
@@ -104,7 +111,8 @@ var
      leia( op )
      retorne op
   fimfuncao
-  
+
+//inicio do algoritimo  
 inicio
 
   repita
