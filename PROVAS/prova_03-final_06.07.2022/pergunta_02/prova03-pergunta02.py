@@ -1,10 +1,19 @@
 '''
 
-Welcome to GDB Online.
-GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
-C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
-Code, Compile, Run and Debug online from anywhere in world.
+Escreva um algoritmo que apresente o menu de opções a seguir:
 
+
+Menu de opções:
+1. Média aritmética 
+2. Média ponderada 
+3. Sair 
+Digite a opção desejada: ______
+
+
+Na opção 1: receber duas notas, calcular e mostrar a média aritmética.
+Na opção 2: receber três notas e seus respectivos pesos, calcular e mostrar a média ponderada.
+Na opção 3: sair do programa.
+Verifique a possibilidade de opção inválida. Nesse caso, o programa deverá mostrar uma mensagem
 '''
 while True: 
     print("Menu de opcoes: ")

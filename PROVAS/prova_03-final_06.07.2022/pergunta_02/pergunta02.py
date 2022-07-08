@@ -16,35 +16,34 @@ Verifique a possibilidade de opção inválida. Nesse caso, o programa deverá m
 
 """
 
-#bibliotecas
-import os
-
-opcao = 0
-rep = ""
-
-#função titulo
-def m_titulo(titulo):
-    print(".:: ", titulo, " ::.")
-#funcao mostra menu
-def mostrar_menu(op):
-    os.system("clean") or None
-    m_titulo()
-    print("   1. Media aritmetica ")
-    print("   2. ponderada ")
-    print("   3. Sair ")
-    op int(input("Digite a Opção: "))
-
-    if (op < 1) or (op > 3):
-        print("Opção invalida !")
-        print("Presione uma tecla para continuar")
-
+while True: 
+    print("Menu de opcoes: ")
+    print(" 1- Media aritimetica! ")
+    print(" 2- Media ponderada! ")
+    print(" 3- Sair! ")
+    op = int(input("Qual a Opcao desejada? "))
+    print('-='*30)
+    if op in (1, 2, 3):
+        if op == 1:
+            print('voce ira digitardois valores')
+            n1 = float(input('digite o valor 1: '))
+            n2 = float(input('digite o valor 2: '))
+            print(f'A media aritimetica do valor {n1} e {n2} e: {(n1+n2)/2:.2f}')
             
-
-            se (op < 1) ou (op > 3) entao
-                escreval("Opcao invalida!")
-                escreval("Pressione uma tecla para continuar")
-                leia( x )
-            fimse
-        ate ( (1 <= op) e (op <= 3) )
-
-    retorne op
+        elif op == 2:
+            print('voce ira digitar tres valores')
+            n1 = float(input('digite o primeiro valor 1: '))
+            p1 =float(input('digite o valor do peso 1: '))
+            n2 = float(input('digite o segundo valor 2: '))
+            p2 =float(input('digite o valor do peso 2: '))
+            n3 = float(input('digite o terceiro valor 3: '))
+            p3 =float(input('digite o valor do peso 3: '))
+            print('-*' * 30)
+            print('formula usada: MP = (((n1*p1)+(n2*p2)+(n3*p3))/(p1*p2*p3))')
+            print('-*' * 30)
+            print('valor 1: {n1}, peso: {p1} -- valor 2: {n2}, {p2} -- valor 3: {n3}, peso: {p3}')
+            print('-*' * 30)
+            print(f'A media ponderada e: {(((n1*p1) + (n2*p2) + (n3*p3))/(p1+p2+p3)):.2f}')
+        else:
+            print('voce digitou para sair!')
+            break
