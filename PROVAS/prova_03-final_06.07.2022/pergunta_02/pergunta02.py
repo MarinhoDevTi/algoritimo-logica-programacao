@@ -64,13 +64,13 @@ elif opcao == 2:
     linha()
     print('')
 
-    nota3 = float(input("Informe a terceira nota: "))
+    not_03 = float(input("Informe a terceira nota: "))
     peso3 = float(input("Informe o peso da terceira nota: "))
-    linh()
+    linha()
     print('')
 
-    mediaP = (nota1*peso1) + (nota2*peso2) + (nota3*peso3) / (peso1 + peso2 + peso3)
-    print("A Média Ponderada é: ",mediaP)
+    mpond = (not_01*peso1) + (not_02*peso2) + (not_03*peso3) / (peso1 + peso2 + peso3)
+    print("A Média Ponderada é: ",mpond)
 
 elif opcao == 3:
     mensagem("PROGRAMA ENCERRADO")
