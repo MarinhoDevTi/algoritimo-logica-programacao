@@ -55,21 +55,21 @@ elif opcao == 2:
     mensagem("     Média Ponderada")    
 
     not_01 = float(input("Informe a primeira nota: "))
-    peso1 = float(input("Informe o peso da primeira nota: "))
+    pon1 = float(input("Informe o peso da primeira nota: "))
     linha()
     print('')
 
     not_02 = float(input("Informe a segunda nota: "))
-    peso2 = float(input("Informe o peso da segunda nota: "))
+    pon2 = float(input("Informe o peso da segunda nota: "))
     linha()
     print('')
 
     not_03 = float(input("Informe a terceira nota: "))
-    peso3 = float(input("Informe o peso da terceira nota: "))
+    pon3 = float(input("Informe o peso da terceira nota: "))
     linha()
     print('')
 
-    mpond = (not_01*peso1) + (not_02*peso2) + (not_03*peso3) / (peso1 + peso2 + peso3)
+    mpond = ((not_01 * pon1) + (not_02 * pon2) + (not_03 * pon3) / 3 )
     print("A Média Ponderada é: ",mpond)
 
 elif opcao == 3:
