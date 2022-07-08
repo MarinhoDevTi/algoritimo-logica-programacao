@@ -15,3 +15,36 @@ Na opção 3: sair do programa.
 Verifique a possibilidade de opção inválida. Nesse caso, o programa deverá mostrar uma mensagem
 
 """
+
+#bibliotecas
+import os
+
+opcao = 0
+rep = ""
+
+#função titulo
+def m_titulo(titulo):
+    print(".:: ", titulo, " ::.")
+#funcao mostra menu
+def mostrar_menu(op):
+    os.system("clean") or None
+    m_titulo()
+    print("   1. Media aritmetica ")
+    print("   2. ponderada ")
+    print("   3. Sair ")
+    op int(input("Digite a Opção: "))
+
+    if (op < 1) or (op > 3):
+        print("Opção invalida !")
+        print("Presione uma tecla para continuar")
+
+            
+
+            se (op < 1) ou (op > 3) entao
+                escreval("Opcao invalida!")
+                escreval("Pressione uma tecla para continuar")
+                leia( x )
+            fimse
+        ate ( (1 <= op) e (op <= 3) )
+
+    retorne op
