@@ -16,13 +16,14 @@ Verifique a possibilidade de opção inválida. Nesse caso, o programa deverá m
 
 """
 def linha():
-    print('-='*30)
+    print('-='*20)
 #fim da função linha()
 
 def mensagem(msg):
-    print("-=-", * 40)
+    print("-=-" * 20)
     print(msg)
-    print("-=-", * 40)
+    print("-=-" * 20)
+#fim da função mensagem(msg)
 #fim função mensagem(msg)
     
 mensagem("      ..::MENU DE OPÇÕES::..      ")
@@ -46,8 +47,10 @@ if opcao == 1:
     not_02 = float(input("Informe a segunda nota: "))
     print('')
     media = (not_01 + not_02) / 2
-
-    mensagem("   A média aritmética é: ",media)    
+    
+    linha()
+    print("   A média aritmética é: ",media)
+    linha()    
 
 elif opcao == 2:
     print('')
